@@ -1,6 +1,6 @@
 # Etymo Newsletter
 
-A repository for published Etymo Newsletters. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLScPzDcOp6gnVWtiXtLOG_uFff0Fg7uEuXqg0cu5LiCNkq637Q/viewform)
+A regular newsletter, with highlights of AI research. Sign up [here](https://docs.google.com/forms/d/e/1FAIpQLScPzDcOp6gnVWtiXtLOG_uFff0Fg7uEuXqg0cu5LiCNkq637Q/viewform)
 
 ## Index
 
