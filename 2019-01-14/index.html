@@ -1,0 +1,332 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Etymo AI newsletter #11</title>
+	<style type="text/css">
+		#outlook a {padding:0;}
+		body{width:100% !important; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; margin:0; padding:0; font-family: "Open Sans", sans-serif;}
+		.ExternalClass {width:100%;}
+		.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+		#backgroundTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+		img {outline:none; text-decoration:none; -ms-interpolation-mode: bicubic;}
+		a img {border:none;}
+		.image_fix {display:block;}
+		p {margin: 1em 0;}
+		h1, h2, h4, h5, h6 {color: black !important; font-weight:300; text-align:center;}
+		h3 {font-weight:300; text-align:center;}
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {color: blue !important;}
+		h1 a:active, h2 a:active,  h3 a:active, h4 a:active, h5 a:active, h6 a:active {
+			color: red !important;
+		}
+		h2 {font-size:4rem;}
+		h3 {font-size:1.75rem; color:blue;}
+		h4 {font-size:1.3rem;}
+
+		h1 a:visited, h2 a:visited,  h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+			color: purple !important;
+		}
+		table td {border-collapse: collapse;}
+		table { border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; }
+		a {color: blue;}
+		@media only screen and (max-device-width: 480px) {
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: black; /* or whatever your want */
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: blue !important; /* or whatever your want */
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+
+		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+			a[href^="tel"], a[href^="sms"] {
+						text-decoration: none;
+						color: blue;
+						pointer-events: none;
+						cursor: default;
+					}
+
+			.mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+						text-decoration: default;
+						color: blue !important;
+						pointer-events: auto;
+						cursor: default;
+					}
+		}
+
+		.section{
+			padding:10px;
+		}
+		#backgroundTable{
+			width:100%;
+			max-width:800px;
+			margin:0 auto;
+		}
+		th{
+			text-align:left;
+		}
+		.padded td, th{
+			padding:5px 10px;
+		}
+
+		li{
+			margin:10px;
+		}
+
+		@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+			/* Put your iPhone 4g styles in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:.75){
+			/* Put CSS for low density (ldpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1){
+			/* Put CSS for medium density (mdpi) Android layouts in here */
+		}
+		@media only screen and (-webkit-device-pixel-ratio:1.5){
+			/* Put CSS for high density (hdpi) Android layouts in here */
+		}
+	</style>
+
+
+
+</head>
+<body>
+	<table cellpadding="0" cellspacing="0" border="0" id="backgroundTable" style="background-color:#ffffff;">
+	<tr>
+		<td class="section" style="text-align:center;padding:10px;">
+			<h1>
+				<img class="image_fix" src="https://raw.githubusercontent.com/EtymoIO/newsletter/master/image/header.png" alt="newsletter.etymo" title="newsletter.etymo" style="width:100%	;max-width:600px; margin:0px auto;" />
+			</h1>
+		</td>
+	</tr>
+	<tr>
+		<td class="section" style="text-align:center;">
+			<h2 style="font-weight:300; font-size:2rem;">31st December 2018 - 10th January 2019</h2>
+			<h3 style="color:blue;">
+				960 new papers
+			</h3>
+		</td>
+	</tr>
+	<tr>
+		<td class="section">
+			<p>
+				In this newsletter from Etymo, you can find out the latest development in machine learning research, including the most popular datasets used, the most frequently appearing keywords, the important research papers associated with the keywords, and the most trending papers in the past two weeks.<br/><br/>
+If you and your friends like this newsletter, you can subscribe to our fortnightly newsletters <a href="https://docs.google.com/forms/d/e/1FAIpQLScPzDcOp6gnVWtiXtLOG_uFff0Fg7uEuXqg0cu5LiCNkq637Q/viewform">here</a>.
+			</p>
+		</td>
+	</tr>
+	<tr>
+		<td class="section">
+			<h3>
+				Fortnight Summary
+			</h3>
+		<p>
+			The new year 2019 has taken a slow start in machine learning related research, as the number of papers published in the past two weeks is significantly smaller than usual. Nevertheless, computer vision (CV) is still a main research area, as reflected on the popularity of the CV datasets and the most trending papers.<br></br>
+
+			We present the emerging interests in research under the "<b>Trending Phrases</b>" section. The papers in this section shows some cutting edge results. There are three good papers related to differential evolution, a category of optimization algorithms applicable to problems that are not continuous and noisy. There is also a notable progress on foreground and background estimation using PCA for moving cameras. Please read the "<b>Trending Phrases</b>" section for more details.<br></br>
+
+			Other notable development in research includes the following:
+			<li>
+				More efficient active tasks learning using mid-level visual representation than the from-scratch learning approarch: <a href="https://arxiv.org/abs/1812.11971">Mid-Level Visual Representations Improve Generalization and Sample Efficiency for Learning Active Tasks</a>
+			</li>
+			<li>
+				A new model schedule approach to choose the model with the best predictive accuracy under a given budget: <a href="https://arxiv.org/abs/1901.00456">Cost-sensitive Selection of Variables by Ensemble of Model Sequences</a>
+			</li>
+			<li>
+				A solution to determine layer-wise parallelism for deep neural network training with an array of DNN accelerators: <a href="https://arxiv.org/abs/1901.02067">HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array</a>
+			</li>
+			<li>
+				To establish the fundamental limits of learning in deep neural networks by characterizing what is possible if no constraints on the learning algorithm and the amount of training data are imposed: <a href="https://arxiv.org/abs/1901.02220">Deep Neural Network Approximation Theory</a>
+			</li>
+			<li>
+				A deep network embedding model to learn the low-dimensional node vector representations with structural balance preservation for the signed networks: <a href="https://arxiv.org/abs/1901.01718">Deep Network Embedding for Graph Representation Learning in Signed Networks</a>
+			</li>
+			<br></br>
+
+			Since there are many new developments on data science and machine learning, the trend of people publishing review papers of existing approaches, algorithms and methods continues. In the past two weeks, some of the notable review papers include: 
+			<li>
+				<a href="https://arxiv.org/abs/1901.00596">A Comprehensive Survey on Graph Neural Networks</a>
+			</li>
+			<li>
+				<a href="https://arxiv.org/abs/1812.11806">An introduction to domain adaptation and transfer learning</a>
+			</li>
+			<li>
+				<a href="https://arxiv.org/abs/1901.02125">Coevolution spreading in complex networks</a>
+			</li>
+			<li>
+				<a href="https://arxiv.org/abs/1901.00121">FPGA-based Accelerators of Deep Learning Networks for Learning and Classification: A Review</a>
+			</li>
+			<li>
+				<a href="https://arxiv.org/abs/1901.00248">A Survey on Multi-output Learning</a>
+			</li>
+			<br></br>
+		</p>
+
+		</td>
+	</tr>
+	<tr>
+		<td class="section">
+			<h3>
+				Popular Datasets
+			</h3>
+			<p>
+				Computer vision is still the main focus area of research.
+			</p>
+			<table class="padded">
+			<tr>
+			        <th>Name</th>
+			        <th>Type</th>
+			        <th>Number of Papers</th>
+			</tr>
+			<tr>
+				<td><a href="http://yann.lecun.com/exdb/mnist/">MNIST</a></td>
+				<td>Handwritten Digits</td>
+			        <td>41</td>
+			</tr>
+			<tr>
+				<td><a href="https://www.cs.toronto.edu/~kriz/cifar.html">CIFAR-10</a></td>
+				<td>Tiny Image Dataset in 10 Classes</td>
+						<td>28</td>
+			</tr>
+			<tr>
+				<td><a href="http://www.image-net.org">ImageNet</a></td>
+				<td>Image Dataset</td>
+						<td>23</td>
+			</tr>
+			<tr>
+				<td><a href="http://www.cvlibs.net/datasets/kitti/">KITTI</a></td>
+				<td>Autonomous Driving</td>
+						<td>16</td>
+			</tr>
+			<tr>
+				<td><a href="http://cocodataset.org/#home">COCO</a></td>
+				<td>Common Objects in Context</td>
+						<td>9</td>
+			</tr>
+			<tr>
+				<td><a href="https://www.cityscapes-dataset.com/">Cityscapes</a></td>
+				<td>Images from 50 different cities</td>
+					<td>9</td>
+			</tr>
+			</table>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="section">
+			<h3>
+				Trending Phrases
+			</h3>
+			<p>
+				In this section, we present a list of phrases that appeared significantly more in this newsletter than the previous newsletters.
+			</p>
+			<ul> <b>Differential Evolution</b>:
+				<li>
+					<a href="https://arxiv.org/abs/1712.06338">Selective-Candidate Framework with Similarity Selection Rule for Evolutionary Optimization</a>
+				</li>
+				<li>
+					<a href="https://arxiv.org/abs/1901.00266">General Subpopulation Framework and Taming the Conflict Inside Populations</a>
+				</li>
+				<li>
+					<a href="https://arxiv.org/abs/1804.05319">Particle Swarm Optimization: A survey of historical and recent developments with hybridization perspectives</a>
+				</li>
+				<br /> <b>Moving Camera</b>:
+				<li>
+					<a href="https://arxiv.org/abs/1712.06229">Panoramic Robust PCA for Foreground-Background Separation on Noisy, Free-Motion Camera Video</a>
+				</li>
+			</ul>
+		</td>
+	</tr>
+
+
+	<tr>
+		<td>
+			<h3>
+				Etymo Trending
+			</h3>
+			<p>
+				Presented below is a list of the most trending papers added in the last two weeks.
+			</p>
+			<ul>
+				<li>
+					<a href="https://arxiv.org/abs/1901.00596">A Comprehensive Survey on Graph Neural Networks</a>:
+					<br />
+					In this 22-page review, the authors give a comprehensive overview of graph neural networks (GNN) in data mining and machine learning fields. They propose a new taxonomy to divide the state-of-the-art graph neural networks into different categories. With a focus on graph convolutional networks, they review recently developed alternative architectures and discuss the applications of graph neural networks across various domains. They also summarize the open source codes and benchmarks of the existing algorithms on different learning tasks.
+				</li>
+				<br />
+				<li>
+					<a href="https://arxiv.org/abs/1812.11806">An introduction to domain adaptation and transfer learning</a>:
+					<br />
+					The author introduces domain adaptation and transfer learning guided by the aim to generalize a classifier from a source to a target domain appropriately. The author starts with simpler dataset shifts, namely prior, covariate and concept shift. He then moves on to more complex domain shifts, including mportance-weighting, subspace mapping, domain-invariant spaces, feature augmentation, minimax estimators and robust algorithms. 
+				</li>
+				<br />
+				<li>
+					<a href="https://arxiv.org/abs/1812.11971">Mid-Level Visual Representations Improve Generalization and Sample Efficiency for Learning Active Tasks</a>:
+					<br />
+					One of the ultimate objectives of computer vision is to help robotic agents perform active tasks. The conventional approach using Deep Reinforcement Learning need to learn active tasks from scratch using images as input. The authors show that proper use of mid-level perception confers significant advantages over training from scratch. They implement a perception module as a set of mid-level visual representations and demonstrate that learning active tasks with mid-level features is significantly more sample-efficient than scratch and able to generalize in situations where the from-scratch approach fails. However, gaining these advantages requires careful selection of the particular mid-level features.
+				</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="section">
+			<h3>
+				Frequent Words
+			</h3>
+
+			<p>
+				"Learning", "Model", "Data" and "Training" are the most frequent words. The top two papers associated with each of the key words are:
+			</p>
+			<ul> <b>Model</b>:
+				<li>
+					<a href="https://arxiv.org/abs/1901.02125">Coevolution spreading in complex networks</a>
+				</li>
+				<li>
+					<a href="https://arxiv.org/abs/1901.00456">Cost-sensitive Selection of Variables by Ensemble of Model Sequences</a>
+				</li>
+				<br /> <b>Learning</b>:
+				<li>
+					<a href="https://arxiv.org/abs/1901.00121">FPGA-based Accelerators of Deep Learning Networks for Learning and Classification: A Review</a>
+				</li>
+				<li>
+					<a href="https://arxiv.org/abs/1901.00248">A Survey on Multi-output Learning</a>
+				</li>
+				<br /> <b>Data</b>:
+				<li>
+					<a href="https://arxiv.org/abs/1901.02067">HyPar: Towards Hybrid Parallelism for Deep Learning Accelerator Array</a>
+				</li>
+				<li>
+					<a href="https://arxiv.org/abs/1901.00121">FPGA-based Accelerators of Deep Learning Networks for Learning and Classification: A Review</a>
+				</li>
+				<br /> <b>Network</b>:
+				<li>
+					<a href="https://arxiv.org/abs/1901.02220">Deep Neural Network Approximation Theory</a>
+				</li>
+				<li>
+					<a href="https://arxiv.org/abs/1901.01718">Deep Network Embedding for Graph Representation Learning in Signed Networks</a>
+				</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+	<td class="section">
+		<h4 style="line-height:1.25">
+				Hope you have enjoyed this newsletter! If you have any comments or suggestions, please email ernest@etymo.io or steven@etymo.io.	
+		</h4>
+	</td>
+	</tr>
+	</table>
+
+</body>
+</html>
